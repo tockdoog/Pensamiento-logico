@@ -7,6 +7,7 @@ def solution(num1, num2):
     resultado = int(f"{resta}{suma}")
     return resultado
 
+# Llamadas a la función y mostrar resultados
 print(solution(5, 4))
 print(solution(8, 2))
 print(solution(10, 8))

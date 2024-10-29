@@ -1,4 +1,4 @@
-function solution(num1, num2) {
+export function solution(num1, num2) {
   // aquí se hace el cálculo
   let resta = (num1 - num2);
   let suma = (num1 + num2);
@@ -8,6 +8,7 @@ function solution(num1, num2) {
   return resultado;
 }
 
+// Llamadas a la función y mostrar resultados
 console.log(solution(5, 4));
 console.log(solution(8, 2));
 console.log(solution(10, 8));
